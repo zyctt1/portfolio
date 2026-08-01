@@ -13,12 +13,6 @@ export function About() {
           {portfolio.person.about.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         </div>
       </div>
-      <div className="about-portrait" role="img" aria-label={`Abstract portrait placeholder for ${portfolio.person.name}`}>
-        <div aria-hidden="true" className="portrait-head" />
-        <div aria-hidden="true" className="portrait-shadow" />
-        <p>Portrait<br />placeholder</p>
-        <span>Replace with {portfolio.person.firstName}&apos;s photograph</span>
-      </div>
     </section>
   );
 }

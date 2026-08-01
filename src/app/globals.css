@@ -886,61 +886,8 @@ button:focus-visible,
   padding-top: var(--section-space);
 }
 
-.about-portrait {
-  position: relative;
-  grid-column: 1 / span 5;
-  min-height: clamp(30rem, 58vw, 54rem);
-  overflow: hidden;
-  background: var(--coral);
-  color: var(--carbon);
-}
-
-.portrait-head {
-  position: absolute;
-  top: 15%;
-  left: 27%;
-  width: 47%;
-  height: 44%;
-  border-radius: 48% 52% 38% 62%;
-  background: var(--carbon);
-}
-
-.portrait-shadow {
-  position: absolute;
-  right: -20%;
-  bottom: -10%;
-  width: 105%;
-  height: 62%;
-  border-radius: 52% 48% 0 0;
-  background: var(--ivory);
-  transform: rotate(-8deg);
-}
-
-.about-portrait p {
-  position: absolute;
-  z-index: 2;
-  top: 1rem;
-  left: 1rem;
-  margin: 0;
-  font-size: clamp(3.5rem, 7vw, 7rem);
-  font-weight: 800;
-  line-height: 0.75;
-  letter-spacing: -0.08em;
-  text-transform: uppercase;
-}
-
-.about-portrait span {
-  position: absolute;
-  z-index: 2;
-  right: 1rem;
-  bottom: 1rem;
-  font: 600 0.55rem/1 var(--utility);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
 .about-copy {
-  grid-column: 7 / -1;
+  grid-column: 3 / span 8;
   align-self: center;
 }
 
@@ -1430,8 +1377,7 @@ button:focus-visible,
     grid-column: 2;
   }
 
-  .about-portrait { grid-column: 1 / span 6; }
-  .about-copy { grid-column: 7 / -1; }
+  .about-copy { grid-column: 2 / -2; }
 
   .about-body {
     grid-template-columns: 1fr;
@@ -1652,10 +1598,6 @@ button:focus-visible,
   .about {
     display: flex;
     flex-direction: column;
-  }
-
-  .about-portrait {
-    min-height: 34rem;
   }
 
   .about-copy {
