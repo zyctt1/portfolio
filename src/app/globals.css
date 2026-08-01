@@ -925,6 +925,128 @@ button:focus-visible,
   font-weight: 700;
 }
 
+.atar-home-stage {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 83% 18%, rgba(118, 99, 255, 0.42), transparent 28%),
+    radial-gradient(circle at 10% 92%, rgba(24, 192, 221, 0.18), transparent 25%),
+    #17142e;
+}
+
+.atar-home-browser {
+  position: absolute;
+  top: 5%;
+  right: 8%;
+  bottom: 6%;
+  left: 3%;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: clamp(0.8rem, 1.5vw, 1.45rem);
+  background: #f5f6ff;
+  box-shadow: 0 3rem 7rem rgba(7, 5, 24, 0.48);
+}
+
+.atar-home-chrome {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  height: 7%;
+  min-height: 2.25rem;
+  padding-inline: clamp(0.8rem, 1.3vw, 1.3rem);
+  border-bottom: 1px solid rgba(38, 31, 93, 0.12);
+  background: rgba(248, 248, 255, 0.98);
+  color: #6d6888;
+  font: 700 clamp(0.42rem, 0.58vw, 0.59rem)/1 var(--utility);
+  letter-spacing: 0.04em;
+}
+
+.atar-home-chrome > span {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.atar-home-chrome i {
+  width: 0.48rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #ff7567;
+}
+
+.atar-home-chrome i:nth-child(2) { background: #ffc344; }
+.atar-home-chrome i:nth-child(3) { background: #47d891; }
+
+.atar-home-chrome em {
+  justify-self: end;
+  color: #5b50e8;
+  font-style: normal;
+  letter-spacing: 0.08em;
+}
+
+.atar-home-desktop {
+  position: relative;
+  height: 93%;
+  overflow: hidden;
+}
+
+.atar-home-desktop img,
+.atar-home-mobile img {
+  object-fit: cover;
+  object-position: top center;
+}
+
+.atar-home-phone {
+  position: absolute;
+  z-index: 3;
+  right: 2.2%;
+  bottom: 2.8%;
+  width: 24%;
+  aspect-ratio: 390 / 844;
+  padding: clamp(0.28rem, 0.5vw, 0.5rem);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: clamp(1rem, 2.2vw, 2.2rem);
+  background: #12102a;
+  box-shadow: 0 2.8rem 5rem rgba(7, 5, 24, 0.58);
+  transform: rotate(1.8deg);
+}
+
+.atar-home-mobile {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: clamp(0.75rem, 1.8vw, 1.75rem);
+}
+
+.atar-phone-speaker {
+  position: absolute;
+  z-index: 2;
+  top: clamp(0.55rem, 1vw, 1rem);
+  left: 50%;
+  width: 22%;
+  height: 0.3rem;
+  border-radius: 999px;
+  background: rgba(18, 16, 42, 0.72);
+  transform: translateX(-50%);
+}
+
+.atar-capture-label {
+  position: absolute;
+  z-index: 4;
+  bottom: 2.5%;
+  left: 3%;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  background: rgba(18, 16, 42, 0.8);
+  color: rgba(255, 255, 255, 0.72);
+  font: 600 clamp(0.42rem, 0.58vw, 0.58rem)/1 var(--utility);
+  letter-spacing: 0.08em;
+  backdrop-filter: blur(0.8rem);
+}
+
 .visual-forge {
   background:
     radial-gradient(circle at 77% 17%, rgba(232, 132, 60, 0.18), transparent 25%),
@@ -2339,6 +2461,26 @@ button:focus-visible,
   .atar-answers span { padding: 0.5rem; }
   .atar-avi-wrap { bottom: 0; left: -1%; width: 31%; }
   .atar-avi-wrap span { top: -12%; left: 56%; font-size: 0.42rem; }
+
+  .atar-home-browser {
+    top: 3%;
+    right: 3%;
+    bottom: auto;
+    left: 3%;
+    height: 58%;
+    opacity: 0.72;
+  }
+
+  .atar-home-chrome {
+    grid-template-columns: 1fr auto;
+    min-height: 1.8rem;
+    padding-inline: 0.55rem;
+  }
+
+  .atar-home-chrome > b { justify-self: end; }
+  .atar-home-chrome > em { display: none; }
+  .atar-home-phone { right: 5%; bottom: 2.5%; width: 68%; }
+  .atar-capture-label { bottom: 3.5%; left: 3%; max-width: 20%; padding: 0.45rem; border-radius: 0.55rem; line-height: 1.35; }
 
   .forge-signature { top: 2.5%; right: 3%; }
   .forge-signature span { display: none; }

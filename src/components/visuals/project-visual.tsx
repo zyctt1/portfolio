@@ -18,88 +18,37 @@ function assertNever(value: never): never {
 function AtarPrepVisual() {
   return (
     <figure className="project-visual visual-atarprepai">
-      <div className="atar-product" aria-hidden="true">
-        <div className="atar-browser">
-          <div className="atar-browser-bar">
-            <span className="atar-browser-dots"><i /><i /><i /></span>
-            <span>atarprepai / study</span>
-            <b>12 day streak</b>
+      <div className="atar-home-stage" aria-hidden="true">
+        <div className="atar-home-browser">
+          <div className="atar-home-chrome">
+            <span><i /><i /><i /></span>
+            <b>atarprepai.com</b>
+            <em>REAL PRODUCT / HOMEPAGE</em>
           </div>
-          <div className="atar-app-shell">
-            <aside className="atar-sidebar">
-              <div className="atar-brand"><i>AP</i><strong>ATARprepAI</strong></div>
-              <nav>
-                <span className="is-active"><i>⌂</i> Home</span>
-                <span><i>✦</i> Generate</span>
-                <span><i>▱</i> Flashcards</span>
-                <span><i>✓</i> Practice</span>
-              </nav>
-              <div className="atar-level">
-                <span>WEEKLY GOAL</span>
-                <strong>4 / 5 days</strong>
-                <i><b /></i>
-              </div>
-            </aside>
-
-            <div className="atar-main">
-              <div className="atar-welcome">
-                <div>
-                  <span>GOOD EVENING, ARTUR</span>
-                  <strong>What are we studying?</strong>
-                </div>
-                <i>640 XP</i>
-              </div>
-              <div className="atar-subjects">
-                <span className="is-active">Human Biology</span>
-                <span>Methods</span>
-                <span>English</span>
-                <span>＋</span>
-              </div>
-              <div className="atar-generator">
-                <span className="atar-kicker">QUICK GENERATOR</span>
-                <strong>Turn any topic into<br />a practice set.</strong>
-                <div className="atar-input-row">
-                  <span>Homeostasis &amp; feedback loops</span>
-                  <b>Year 12</b>
-                </div>
-                <div className="atar-mode-row">
-                  <span className="is-active">Quiz</span>
-                  <span>Flashcards</span>
-                  <span>Learn</span>
-                  <span className="atar-generate">Generate <b>→</b></span>
-                </div>
-              </div>
-              <div className="atar-recent-row">
-                <div>
-                  <span>RECENT SET</span>
-                  <strong>Nervous system</strong>
-                  <small>18 questions · 82% mastery</small>
-                </div>
-                <div className="atar-mastery"><span>82</span><small>MASTERED</small></div>
-              </div>
-            </div>
+          <div className="atar-home-desktop">
+            <Image
+              src="/atar-home-desktop.png"
+              alt=""
+              fill
+              sizes="(max-width: 640px) 92vw, 90vw"
+            />
           </div>
         </div>
-
-        <div className="atar-quiz-card">
-          <div className="atar-quiz-top"><span>HUMAN BIOLOGY</span><b>04 / 12</b></div>
-          <div className="atar-progress"><i /></div>
-          <strong>Which response restores<br />the body to its set point?</strong>
-          <div className="atar-answers">
-            <span><i>A</i> Positive feedback</span>
-            <span className="is-selected"><i>B</i> Negative feedback</span>
-            <span><i>C</i> Feedforward control</span>
+        <div className="atar-home-phone">
+          <div className="atar-phone-speaker" />
+          <div className="atar-home-mobile">
+            <Image
+              src="/atar-home-mobile.png"
+              alt=""
+              fill
+              sizes="(max-width: 640px) 72vw, 26vw"
+            />
           </div>
-          <small>Choose the best answer</small>
         </div>
-
-        <div className="atar-avi-wrap">
-          <span>Nailed it. Keep going!</span>
-          <Image src="/atar-avi.png" alt="" width={512} height={512} />
-        </div>
+        <span className="atar-capture-label">DESKTOP + MOBILE / 2026</span>
       </div>
       <figcaption className="sr-only">
-        ATARprepAI shown as a complete study workspace with subject selection, an AI practice-set generator, quiz progress, and Avi the robot mascot.
+        The real ATARprepAI homepage shown at desktop and mobile sizes, featuring Avi, the aviation blueprint artwork, and the Study smarter, score higher headline.
       </figcaption>
     </figure>
   );
