@@ -33,8 +33,8 @@ export const portfolio = {
       outcome: "A Duolingo × Quizlet-style exam-prep app that generates flashcards and quizzes, tracks progress, and keeps students moving with Avi, its robot mascot.",
       disclaimer: "Independent product",
       visual: "atarprepai",
-      href: "https://atarprepai.vercel.app/app",
-      linkLabel: "Open ATARprepAI",
+      href: null,
+      linkLabel: null,
     },
     {
       index: "02",

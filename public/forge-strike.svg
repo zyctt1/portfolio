@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="g-dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1D1E24"/>
+      <stop offset="1" stop-color="#08080A"/>
+    </linearGradient>
+    <linearGradient id="g-molten" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE0A8"/>
+      <stop offset="0.28" stop-color="#FF9A2E"/>
+      <stop offset="0.68" stop-color="#FF4E14"/>
+      <stop offset="1" stop-color="#B31F06"/>
+    </linearGradient>
+    <radialGradient id="g-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF7A18" stop-opacity="0.75"/>
+      <stop offset="0.55" stop-color="#FF4E14" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FF4E14" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#g-dark)"/>
+  <ellipse cx="512" cy="420" rx="460" ry="380" fill="url(#g-glow)"/>
+  <path d="M 286 872 L 512 618 L 738 872" fill="none" stroke="#FF5A1F" stroke-opacity="0.34"
+        stroke-width="92" stroke-linejoin="miter" stroke-linecap="butt"/>
+  <path d="M 190 668 L 512 292 L 834 668" fill="none" stroke="url(#g-molten)"
+        stroke-width="158" stroke-linejoin="miter" stroke-linecap="butt"/>
+  <path d="M 190 598 L 512 222 L 834 598" fill="none" stroke="#FFF3E0" stroke-opacity="0.5"
+        stroke-width="10" stroke-linejoin="miter"/>
+</svg>
