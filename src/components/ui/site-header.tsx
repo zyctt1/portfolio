@@ -2,9 +2,9 @@ import { portfolio } from "@/data/portfolio";
 
 const navItems = [
   ["Work", "#work"],
+  ["Demos", "#demos"],
   ["About", "#about"],
   ["Story", "#story"],
-  ["Process", "#process"],
 ] as const;
 
 export function SiteHeader() {

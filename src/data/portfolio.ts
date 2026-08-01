@@ -50,6 +50,25 @@ export const portfolio = {
       linkLabel: null,
     },
   ] as const,
+  websiteDemos: [
+    {
+      title: "Apex Ridge Roofing",
+      category: "Commercial website concept",
+      description: "A multi-page concept for a fictional Perth roofing company, designed to turn a complex service offering into a clear path from concern to inspection.",
+      disclosure: "Portfolio concept — not an operating business",
+      role: "Strategy, UX, visual design & frontend",
+      format: "Responsive multi-page website",
+      year: "2026",
+      image: "/apex-ridge-roofing.webp",
+      capabilities: [
+        "Service architecture",
+        "Conversion-focused UX",
+        "Responsive frontend",
+        "Motion system",
+        "SEO foundations",
+      ],
+    },
+  ],
   capabilities: [
     ["Creative direction", "Finding the idea that makes everything else feel inevitable."],
     ["Brand systems", "Building identities that stay coherent while they move and grow."],

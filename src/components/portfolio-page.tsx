@@ -4,6 +4,7 @@ import { MotionConfig } from "framer-motion";
 import { About } from "@/components/sections/about";
 import { Capabilities } from "@/components/sections/capabilities";
 import { Contact } from "@/components/sections/contact";
+import { DemoWebsites } from "@/components/sections/demo-websites";
 import { Hero } from "@/components/sections/hero";
 import { MyStory } from "@/components/sections/my-story";
 import { Process } from "@/components/sections/process";
@@ -30,6 +31,7 @@ export function PortfolioPage({ copyrightYear }: PortfolioPageProps) {
       <main id="main-content" tabIndex={-1}>
         <Hero />
         <SelectedWork />
+        <DemoWebsites />
         <Capabilities />
         <About />
         <MyStory />
