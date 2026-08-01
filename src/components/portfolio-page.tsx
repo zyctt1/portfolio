@@ -5,6 +5,7 @@ import { About } from "@/components/sections/about";
 import { Capabilities } from "@/components/sections/capabilities";
 import { Contact } from "@/components/sections/contact";
 import { Hero } from "@/components/sections/hero";
+import { MyStory } from "@/components/sections/my-story";
 import { Process } from "@/components/sections/process";
 import { SelectedWork } from "@/components/sections/selected-work";
 import { Testimonial } from "@/components/sections/testimonial";
@@ -31,6 +32,7 @@ export function PortfolioPage({ copyrightYear }: PortfolioPageProps) {
         <SelectedWork />
         <Capabilities />
         <About />
+        <MyStory />
         <Process />
         <Testimonial />
         <Contact />

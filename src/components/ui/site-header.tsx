@@ -3,6 +3,7 @@ import { portfolio } from "@/data/portfolio";
 const navItems = [
   ["Work", "#work"],
   ["About", "#about"],
+  ["Story", "#story"],
   ["Process", "#process"],
 ] as const;
 

@@ -58,6 +58,42 @@ export const portfolio = {
     ["Motion & interaction", "Using movement to explain, reward and create rhythm."],
     ["Digital strategy", "Connecting creative decisions to a clear commercial purpose."],
   ],
+  story: {
+    headline: "Starting over taught me how to build forward.",
+    paragraphs: [
+      "My name is Artur. I moved from Ukraine to Australia when I was 13. Familiar routines gave way to a new language, a new education system and a place I had to learn from the ground up.",
+      "Starting again was difficult, but it made curiosity practical. I became less interested in waiting to feel ready and more willing to learn by making things.",
+      "At 16, I began teaching myself programming, entrepreneurship, AI, marketing and product design. Not because I had a perfect plan, but because I wanted to understand how an idea becomes something useful.",
+      "Forge and ATARprepAI are part of that process. Both have changed through failed assumptions, rough iterations and lessons I could only learn by shipping. Each project is helping me become a more thoughtful founder, developer and person.",
+    ],
+    quote: "Technology matters when it solves a real problem for a real person.",
+    milestones: [
+      {
+        label: "Age 13",
+        title: "A new country",
+        description: "Moved from Ukraine to Australia and learned to navigate a new language, school system and environment.",
+      },
+      {
+        label: "Age 16",
+        title: "Learning by choice",
+        description: "Started teaching myself how technology, product, design, marketing and business fit together.",
+      },
+      {
+        label: "Now",
+        title: "Building to learn",
+        description: "Created Forge and ATARprepAI, improving both through real use, failed assumptions and steady iteration.",
+      },
+      {
+        label: "Long term",
+        title: "Useful, lasting work",
+        description: "Build products that improve lives, create freedom for my family and leave something meaningful behind.",
+      },
+    ],
+    outro: {
+      title: "This is only the beginning.",
+      body: "Every project teaches me something new, and every challenge shows me where I still need to grow. There is a lot left to learn—and that is the point.",
+    },
+  },
   process: [
     ["Discover", "Understand the people, tension and opportunity behind the brief."],
     ["Define", "Turn research into a sharp creative position and a clear system."],
